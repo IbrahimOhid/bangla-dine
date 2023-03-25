@@ -65,15 +65,30 @@ footer{
 }
 footer p{
     text-align: justify;
-    font-weight: 500;
+    font-weight: 400;
 }
 footer a{
     text-decoration: none;
-    color: #26de81;
+    color: #fc5c65;
     transition: 0.5s;
 }
 footer a:hover{
-    color: #fc5c65;
+    color:#26de81 ;
     text-decoration: underline;
 }
 /* footer design ends here */
+
+@media only screen and (min-width:200px) and (max-width: 600px) {
+    .slide{
+        padding-top: 60px;
+    }
+    .about-text{
+        margin-top: -160px;
+    }
+    .about-text button{
+        margin-bottom: 10px;
+    }
+    .contact-information{
+        width: 400px;
+    }
+}
