@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+/* header-section design starts here */
+.bangla{
+    color: #26de81;
+}
+.dine{
+    color: #fc5c65;
+}
+#navbarNavDropdown .nav-link{
+    color: #26de81;
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+#navbarNavDropdown .nav-link:hover{
+    color: #ffff;
+    background: #fc5c65;
+    border-radius: 5px;
+}
+/* header-section design ends here */
+
+/* carousel-section design starts here */
+#carousel .carousel-item{
+    height: 500px;
+    width:100%;
+}
+/* carousel-section design ends here */
+
+/* about-section design starts here */
+.about-text{
+    text-align: justify;
+}
+.btn{
+    background: #26de81;
+    color: #ffff;
+}
+/* about-section design ends here */
+
+/* contact-section design starts here */
+    #contact-section{
+        background-image: url(img/map.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30px;
+    }
+    .contact-information{
+        background: #ffff;
+        width: 70%;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .submit{
+        background: #26de81;
+        color: #ffff;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        transition: 0.6s;
+    }
+    .submit:hover{
+        background: #fc5c65;
+    }
+/* contact-section design ends here */
+
+/* footer design starts here */
+footer{
+    padding: 20px;
+}
+footer p{
+    text-align: justify;
+    font-weight: 500;
+}
+footer a{
+    text-decoration: none;
+    color: #26de81;
+    transition: 0.5s;
+}
+footer a:hover{
+    color: #fc5c65;
+    text-decoration: underline;
+}
+/* footer design ends here */

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bangla Dine</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section stats here -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand col-lg-4" href="#"><span class="bangla">Bangla</span> <span class="dine">Dine</span></a>
+          <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center col-lg-8" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#carousel">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#food-menu">Food Menu</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  All Item
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Chicken kebab</a></li>
+                  <li><a class="dropdown-item" href="#">Delicious</a></li>
+                  <li><a class="dropdown-item" href="#">Dhal Spicy</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header section ends here -->
+    
+    <!-- carousel section starts here -->
+    <section id="carousel">
+      <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/Carousel1.jpg"
+            class="d-block img-fluid"
+            alt="..."
+            loading="lazy"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/Carousel2.jpg"
+            class="d-block img-fluid"
+            alt="..."
+            loading="lazy"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/Carousel3.jpg"
+            class="d-block img-fluid"
+            alt="..."
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+    <!-- carousel section ends here -->
+
+    <!-- about section starts here -->
+    <section id="about" class="pt-md-3">
+      <div class="about-content container">
+        <div class="row">
+        <div class="about-text align-self-center col-lg-6 col-md-6">
+        <h3>About Us</h3>
+        <h6>What we Do?</h6>
+        <p>We had late lunch / early dinner at this place. One of the best North Indian foods we have had since moving to KL. And the staff was super service minded and really made sure to make our time at the restaurant the best. And we had a 1 yr and a 3 yr old with us - so it is not easy. But cartoons, free ice cream and just very patient staff made it super relaxing and enjoyable. Would definitely come back for more!</p>
+        <button class="submit mb-sm-2">Learn More</button>
+        </div>
+        <div class="about-img align-self-md-center col-lg-6 col-md-6">
+          <img class="img-fluid" src="/img/dhal spicy.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- about section ends here -->
+
+    <!-- food menu section starts here -->
+    <section id="food-menu">
+      <div class="food-menu-content container">
+        <div class="menu-title text-center mt-3">
+          <h1>How we Work</h1>
+          <p>Best food waiting for your Belly!</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/chicken kebab.jpg" class="card-img-top" alt="..." loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Chicken Kebab</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolore, aliquam ipsam inventore veniam maxime.</p>
+                <button class="btn">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/delicious.jpg" class="card-img-top" alt="..." loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Delicious</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolore, aliquam ipsam inventore veniam maxime.</p>
+                <button class="btn">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/tray flat.jpg" class="card-img-top" alt="..." loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Tray Flat</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolore, aliquam ipsam inventore veniam maxime.</p>
+                <button class="btn">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- food menu section ends here -->
+
+    <!-- contact section starts here -->
+    <section id="contact-section">
+      <div class="container">
+        <div class="contact-information">
+          <div class="contact-content">
+            <form class="p-5">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Your Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Email">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Your Phone</label>
+                <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Phone Number">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Enter Your Message"></textarea>
+              </div>
+              <button class="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+    <!-- footer section starts here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <h3 class=" mb-3"><span class="bangla">Bangla</span> <span class="dine">Dine</span></h3>
+            <p>Lorem veritatis magni quis beatae vel inventore consectetur adipisicing elit. Laborum dolor ab in eius consequatur veritatis magni quis beatae vel inventore!</p>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <h3 class="bangla mb-3">Our Product</h3>
+            <p><a href="">Chicken Kebab Flat</a></p>
+            <p><a href="">Delicious Kebab Flat</a></p>
+            <p><a href="">Tray Flat Kebab Flat</a></p>
+            <p><a href="">Tray Flat Kebab Flat</a></p>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <h3 class="bangla mb-3">Quick Links</h3>
+            <p><a href="">Quick Click Link1</a></p>
+            <p><a href="">Quick Click Link2</a></p>
+            <p><a href="">Quick Click Link3</a></p>
+            <p><a href="">Quick Click Link4</a></p>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <h3 class="bangla mb-3">Search Here</h3>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Search Here" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text submit" id="basic-addon2">Search</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends here -->
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
